@@ -3,7 +3,7 @@
 angular.
   module('phonecatApp').
   config(['$routeProvider',
-    function config($routeProvider) {
+    function config($routeProvider: angular.route.IRouteProvider) {
       $routeProvider.
         when('/phones', {
           template: '<phone-list></phone-list>'
