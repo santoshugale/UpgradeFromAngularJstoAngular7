@@ -34,6 +34,8 @@
     "@types/jasmine": "^3.3.0"
   },
   "scripts": {
+    "tsc": "tsc",
+    "tsc:w": "tsc -w",
     "postinstall": "npm run copy-libs",
     "update-deps": "npm update",
     "postupdate-deps": "npm run copy-libs",
